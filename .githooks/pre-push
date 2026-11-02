@@ -3,8 +3,7 @@
 run_tests() {
   echo "Running tests..."
   # Add your test commands here
-  # For example, if you're using pytest:
-  if [[ which dotnet > /dev/null ]]; then
+  if [[ -x "$(command -v dotnet)" ]]; then
     dotnet test
   else
     echo "dotnet is not installed. Skipping tests."
