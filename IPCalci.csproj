@@ -9,9 +9,9 @@
 
     <!-- NuGet Package Metadata -->
     <PackageId>IPCalci</PackageId>
-    <Version>0.1.0-beta</Version>
+    <Version>1.0.0</Version>
     <Authors>Kasali</Authors>
-    <Company>Kasali</Company>
+    <Company>Openservs</Company>
     <Description>High-performance .NET library for calculating and parsing IPv4 and IPv6 subnets, network addresses, usable host ranges, and CIDR notations.</Description>
     <PackageTags>ipv4;ipv6;ip;subnet;calculator;cidr;networking;network</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
