@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+run_tests() {
+  echo "Running tests..."
+  # Add your test commands here
+  if [[ -x "$(command -v dotnet)" ]]; then
+    dotnet test
+  else
+    echo "dotnet is not installed. Skipping tests."
+  fi
+}
+
+run_tests || exit 1;
